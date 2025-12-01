@@ -2,7 +2,7 @@ package dominio;
 
 public class EntregaEconomica extends Entrega{
     public EntregaEconomica(double distancia, double peso) {
-        super(distancia, peso);
+        super(distancia, peso, "Entrega Econômica");
     }
 
     @Override

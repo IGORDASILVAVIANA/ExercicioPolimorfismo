@@ -2,7 +2,7 @@ package dominio;
 
 public class EntregaDrone extends Entrega{
     public EntregaDrone(double distancia, double peso) {
-        super(distancia, peso);
+        super(distancia, peso, "Entrega por Drone");
     }
 
     @Override
