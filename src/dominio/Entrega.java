@@ -13,9 +13,10 @@ public abstract class Entrega implements Relatorio{
 
     @Override
     public void detalhesEntrega(){
+        System.out.println("Tipo: ");
         System.out.println("Distância: " + getDistancia());
         System.out.println("Peso " + getPeso());
-        System.out.println("Custo: " + calcularCusto());
+        System.out.println("Custo: R$ " + calcularCusto());
     }
 
     public double getDistancia() {

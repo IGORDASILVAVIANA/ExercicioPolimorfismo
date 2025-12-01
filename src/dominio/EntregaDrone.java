@@ -8,11 +8,10 @@ public class EntregaDrone extends Entrega{
     @Override
     public double calcularCusto() {
         if (getDistancia() <= 50.0 && getPeso() <= 10.0){
-            double custo = (getDistancia() * 4.00) + (getPeso() * 0.15);
             System.out.println("Entrega em até 1 dia útil");
-            return custo;
+            return (getDistancia() * 4.00) + (getPeso() * 0.15);
         } else {
-            return 0.0;
+            return -1;
         }
     }
 }

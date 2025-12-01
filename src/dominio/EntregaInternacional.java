@@ -7,8 +7,8 @@ public class EntregaInternacional extends Entrega{
 
     @Override
     public double calcularCusto() {
-        double custo = (getDistancia() * 0.15) + (getPeso() * 3) + 30;
         System.out.println("Seu pedido será entregue em até 15 dias úteis");
-        return custo;
+        return (getDistancia() * 0.15) + (getPeso() * 3) + 30;
+
     }
 }
