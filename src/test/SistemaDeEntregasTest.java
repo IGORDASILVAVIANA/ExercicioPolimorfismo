@@ -4,7 +4,7 @@ import dominio.*;
 
 import java.util.ArrayList;
 
-public class SistemaDeEntregas {
+public class SistemaDeEntregasTest {
     public static void main(String[] args) {
         Entrega entregaDrone = new EntregaDrone(50, 5);
         Entrega entregaExpressa = new EntregaExpressa(1000, 10.0);
